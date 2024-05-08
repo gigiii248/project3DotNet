@@ -7,6 +7,16 @@ namespace WebApplication4
 {
     public class traits
     {
-        public static string CODB = "Data Source=DESKTOP-VSUOIB8;Initial Catalog=anime;Integrated Security=True;";
+       // for hatem
+
+       // public static string CODB = "Data Source=DESKTOP-VSUOIB8;Initial Catalog=anime;Integrated Security=True;";
+
+
+       // ===================================================
+
+
+       // for gigiiii
+
+         public static string CODB = "Data Source=GIHAN\\SQLEXPRESS;Initial Catalog=anime;Integrated Security=True;";
     }
 }
