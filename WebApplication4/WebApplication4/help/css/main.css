@@ -1,0 +1,135 @@
+﻿:root{
+    main-delay: liner 800ms;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../anime.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    width: 500px;
+    border: 3px solid;
+    border-radius: 30px;
+    margin: 50px auto;
+    text-align: center;
+    background: rgb(255, 255, 255,0.3);
+    padding:10px;
+}
+.SignUpFrom {
+    height: 475px;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(90, 87, 87);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(83, 13, 13);
+}
+
+.first input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(255, 255, 255,0.7);
+}
+
+.sec input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(255, 255, 255,0.7);
+}
+
+.email input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(255, 255, 255,0.7);
+}
+
+.pass input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(255, 255, 255,0.7);
+}
+
+.date input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(255, 255, 255,0.7);
+    text-align: center;
+}
+
+.mf input {
+    margin-bottom: 20px;
+    accent-color: rgb(83, 13, 13);
+}
+
+.mf label {
+    font-size: 20px;
+}
+
+
+
+
+
+.link a {
+    color: rgb(37, 17, 3);
+    font-size: 20px;
+    transition: var(--main-delay)
+}
+
+    .link a:hover {
+        color: rgb(161, 27, 27);
+    }
+
+.link label {
+    font-weight: bold;
+}
+
+
+.border-error {
+    border:3px solid red !important;
+    color:red !important
+}
+.border-error::placeholder{
+    color:red !important;
+}
+
+.label-error{
+    color:red;
+}

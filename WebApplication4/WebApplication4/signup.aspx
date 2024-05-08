@@ -1,58 +1,63 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signup.aspx.cs" Inherits="WebApplication4.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Mainlayout.Master" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="WebApplication4.SignUp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+        <link rel="stylesheet" href="help/css/signup.css">
+</asp:Content>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
 
-    <title>signup</title>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <link rel="stylesheet" href="help/css/signup.css">
-</head>
+
+     <form class="SignUpFrom">
+              <h1>create a new account</h1> <br>
+
+<div class="first">
+       
+        <asp:TextBox ID="firstName" runat="server" placeholder="Enter first name"  ></asp:TextBox>
+</div>
+
+<div class="sec">
+        <asp:TextBox ID="secName" runat="server" placeholder="Enter second name"  ></asp:TextBox>
+</div>
     
-<body>
-   <form id="form1" runat="server">
-    <aps:form>
-         <br>
-      <h1>create a new account</h1> <br>
+<div class="email">
+        <asp:TextBox ID="email" runat="server" placeholder="*******@gmail.com"  ></asp:TextBox>
+</div>
 
-     <div class="first">
-             <asp:TextBox ID="TextBox1" runat="server" placeholder="Enter first name" required ></asp:TextBox>
-     </div>
-
-     <div class="sec">
-             <asp:TextBox ID="TextBox2" runat="server" placeholder="Enter second name" required ></asp:TextBox>
-     </div>
+<div class="pass">
+        <asp:TextBox ID="password" runat="server" placeholder="Password"  ></asp:TextBox>
+</div>
     
-     <div class="email">
-             <asp:TextBox ID="TextBox3" runat="server" placeholder="*******@gmail.com" required ></asp:TextBox>
-     </div>
 
-     <div class="pass">
-             <asp:TextBox ID="TextBox4" runat="server" placeholder="Password" required ></asp:TextBox>
-     </div>
-    
-     <div class="date">
-             <input type="date"value="dd/mm/yyy"required>
-     </div>
 
-     <div class="mf">
-             <input type="radio" value="Male" id="Male"name="gender"required>
-             <label for="Male">Male</label>
-             <input type="radio" value="Female" id="Female"name="gender"required>
-             <label for="Female">Female</label>
-     </div>
+<div class="mf">
+       
+            <asp:RadioButton ID="Male" runat="server" />
+            <asp:Label ID="lbl_male" runat="server" Text="Male"></asp:Label>
 
-     <div class="signup">
-             <asp:Button ID="Button1" runat="server" Text="Sign up"></asp:Button>
-     </div>
+        <asp:RadioButton ID="Female" runat="server" />
+        <asp:Label ID="lbl_female" runat="server" Text="Female"></asp:Label>
 
-     <div class="link">
-             <label>you have an account...?</label>
-             <a href="gigi2.html">Log In</a>
-     </div>
 
-    </aps:form> 
-   </form>
-</body>
-</html>
+   
+</div>
+
+<div class="signup">
+        <asp:Button ID="Button1" runat="server" type="submit" Text="Sign up" OnClick="Button1Clicked"></asp:Button>
+</div>
+
+<div class="link">
+        <label>you have an account...?</label>
+        
+    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/LogIn.aspx" runat="server">Log In</asp:HyperLink>
+</div>
+
+
+
+     </form>
+
+
+
+
+
+</asp:Content>

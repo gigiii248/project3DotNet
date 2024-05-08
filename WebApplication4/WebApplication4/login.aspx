@@ -1,39 +1,35 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="WebApplication4.login" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-
-    <title>login</title>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Mainlayout.Master" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="WebApplication4.LogIn" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="help/css/login.css">
+</asp:Content>
 
-</head>
-<body>
-    <form id="form1" runat="server">
-      <aps:form>
-              <br>
-       <h1>Your account</h1> <br>
 
-       <div class="email">
-              <asp:TextBox ID="TextBox3" runat="server" placeholder="*******@gmail.com" required ></asp:TextBox>
-       </div>
 
-       <div class="pass">
-              <asp:TextBox ID="TextBox4" runat="server" placeholder="Password" required ></asp:TextBox>
-       </div>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>Your account</h1> <br>
 
-       <div class="login">
-              <asp:Button ID="Button1" runat="server" Text="Log In"></asp:Button>
-       </div>
+    <form class="loginFrom">
 
-       <div class="link">
-              <label>you dont have an account...?</label>
-              <a href="gigi.html">Sign Up</a>
-       </div>
+        <div class="email">
+       <asp:TextBox ID="TextBox3" runat="server" placeholder="*******@gmail.com"  ></asp:TextBox>
+</div>
+
+<div class="pass">
+       <asp:TextBox ID="TextBox4" runat="server" placeholder="Password"  ></asp:TextBox>
+</div>
+
+<div class="login">
+       <asp:Button ID="Button1" runat="server" Text="Log In"></asp:Button>
+</div>
+
+<div class="link">
+       <label>you dont have an account...?</label>
+       
+    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/SignUp.aspx" runat="server">Sign Up</asp:HyperLink>
+</div>
+
+    </form>
     
-    </aps:form> 
-   </form>
-</body>
-</html>
+
+
+</asp:Content>

@@ -17,14 +17,9 @@
         background-size: cover;
   }
 
- form{
+ .loginFrom{
         height: 275px;
-        width: 450px;
-        border: 3px solid;
-        border-radius: 30px;
-        margin: 50px auto;
-        text-align: center;
-        background: rgb(255, 255, 255,0.3);
+
   }
 
  ::placeholder{
@@ -38,50 +33,19 @@
         color: rgb(83, 13, 13);
   }
 
- .email input{
-        width: 245px;
-        height: 40px;
-        margin-bottom: 10px;
-        border: 1px solid;
-        border-radius: 10px;
-        outline: none;
-        background: rgb(255, 255, 255,0.7);
-  }
 
- .pass input{
-        width: 245px;
-        height: 40px;
-        margin-bottom: 10px;
-        border: 1px solid;
-        border-radius: 10px;
-        outline: none;
-        background: rgb(255, 255, 255,0.7);
-  }
-
- .login input{
-        width: 270px;
-        height: 40px;
-        margin-bottom: 10px;
-        border: 1px solid;
-        border-radius: 20px;
-        font-size: 25px;
-        background-color: rgb(114, 39, 39);
-  }
+.login input {
+    width: 230px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(114, 39, 39);
+}
 
  .login input:hover{
         background-color:rgb(161, 27, 27); 
         transform: scale(1.1);
   }
 
- .link a{
-        color: rgb(37, 17, 3);
-        font-size: 20px;
-  }
-
- .link a:hover{
-        color: rgb(161, 27, 27);
-  }
-
- .link label{
-        font-weight: bold;
-  }
