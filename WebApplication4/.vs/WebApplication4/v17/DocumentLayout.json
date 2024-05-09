@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\webapplication4\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|c:\\users\\is laptop\\source\\repos\\project3dotnet\\webapplication4\\webapplication4\\help\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\help\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|c:\\users\\is laptop\\source\\repos\\project3dotnet\\webapplication4\\webapplication4\\help\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\webapplication4\\help\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\help\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|c:\\users\\is laptop\\source\\repos\\project3dotnet\\webapplication4\\webapplication4\\help\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\help\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\webapplication4\\help\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\help\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\webapplication4\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|solutionrelative:webapplication4\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4CBC544-D3DA-4DF5-8706-6F4B77B95CE3}|WebApplication4\\WebApplication4.csproj|C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\webapplication4\\mainlayout.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
@@ -54,11 +58,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "signup.css",
+              "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\css\\signup.css",
+              "RelativeDocumentMoniker": "WebApplication4\\help\\css\\signup.css",
+              "ToolTip": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\css\\signup.css",
+              "RelativeToolTip": "WebApplication4\\help\\css\\signup.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-09T16:22:37.782Z"
             },
             {
               "$type": "Document",
@@ -68,14 +84,13 @@
               "RelativeDocumentMoniker": "WebApplication4\\help\\css\\login.css",
               "ToolTip": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\css\\login.css",
               "RelativeToolTip": "WebApplication4\\help\\css\\login.css",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-09T10:14:45.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T10:14:45.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Main2.js",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\JS\\Main2.js",
               "RelativeDocumentMoniker": "WebApplication4\\help\\JS\\Main2.js",
@@ -87,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\css\\main.css",
               "RelativeDocumentMoniker": "WebApplication4\\help\\css\\main.css",
               "ToolTip": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\help\\css\\main.css",
               "RelativeToolTip": "WebApplication4\\help\\css\\main.css",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAIkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-09T09:17:22.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AdminPage.aspx.cs",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\AdminPage.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication4\\AdminPage.aspx.cs",
@@ -112,19 +127,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AdminPage.aspx",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\AdminPage.aspx",
               "RelativeDocumentMoniker": "WebApplication4\\AdminPage.aspx",
               "ToolTip": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\AdminPage.aspx",
               "RelativeToolTip": "WebApplication4\\AdminPage.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-05-09T09:11:21.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Mainlayout.Master",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\Mainlayout.Master",
               "RelativeDocumentMoniker": "WebApplication4\\Mainlayout.Master",
@@ -132,12 +147,11 @@
               "RelativeToolTip": "WebApplication4\\Mainlayout.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-09T09:04:35.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T09:04:35.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LogIn.aspx.cs",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\LogIn.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication4\\LogIn.aspx.cs",
@@ -149,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LogIn.aspx",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\LogIn.aspx",
               "RelativeDocumentMoniker": "WebApplication4\\LogIn.aspx",
@@ -157,12 +171,11 @@
               "RelativeToolTip": "WebApplication4\\LogIn.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-09T08:32:15.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T08:32:15.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SignUp.aspx.cs",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\SignUp.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication4\\SignUp.aspx.cs",
@@ -174,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "traits.cs",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\traits.cs",
               "RelativeDocumentMoniker": "WebApplication4\\traits.cs",
@@ -186,13 +199,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SignUp.aspx",
               "DocumentMoniker": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\SignUp.aspx",
               "RelativeDocumentMoniker": "WebApplication4\\SignUp.aspx",
               "ToolTip": "C:\\Users\\is laptop\\source\\repos\\project3DotNet\\WebApplication4\\WebApplication4\\SignUp.aspx",
               "RelativeToolTip": "WebApplication4\\SignUp.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-05-09T08:32:20.6Z"
             }
