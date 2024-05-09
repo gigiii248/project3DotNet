@@ -2,7 +2,7 @@
     main-delay: liner 800ms;
 }
 * {
-    margin: 0;
+    margin: 0 310px 0 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -133,3 +133,10 @@ h1 {
 .label-error{
     color:red;
 }
+
+.MainErrormsg {
+    position: relative
+}
+
+    .MainErrormsg #Remove_alert {
+    }

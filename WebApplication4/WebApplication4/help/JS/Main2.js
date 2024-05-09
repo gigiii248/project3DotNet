@@ -8,9 +8,20 @@ $(document).ready(function () {
         $("input").removeClass("border-error");
         $("span").removeClass("label-error");
         $("span").removeClass("border-error");
-        console.log("True");
+       
     });
 
+
+
+    $("#Remove_alert").on("click", function () {
+        console.log("True");
+
+    });
+
+    console.log("HI");
 });
+
+
+
 
 
