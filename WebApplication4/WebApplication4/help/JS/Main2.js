@@ -12,16 +12,13 @@ $(document).ready(function () {
     });
 
 
-
-    $("#Remove_alert").on("click", function () {
-        console.log("True");
-
-    });
-
-    console.log("HI");
 });
 
 
 
 
 
+function RemoveAlert() {
+    let div = document.getElementsByClassName("MainErrormsg");
+    div[0].style.display = "none";
+}

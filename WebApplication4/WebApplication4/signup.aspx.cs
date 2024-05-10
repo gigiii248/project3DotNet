@@ -29,31 +29,39 @@ namespace WebApplication4
 
             
 
-                string    Gender      = "Female";
+              string    Gender      = "Female";
 
             if (firstName.Text.ToString() == "")
+            {
                 firstName.Attributes.Add("class", "border-error");
-            else        
+            }
+            else { 
                 ch_firstName = true;
+            }
 
-
-            if (secName.Text.ToString() == "")
+            if (secName.Text.ToString() == "") { 
                 secName.Attributes.Add("class", "border-error");
-            else
+            }
+            else { 
                 ch_secName = true;
+            }
 
 
-            if (email.Text.ToString() == "")
+            if (email.Text.ToString() == "") { 
                 email.Attributes.Add("class", "border-error");
-            else
+            }
+            else { 
                 ch_email = true;
+            }
 
 
             if (password.Text.ToString() == "")
+            {
                 password.Attributes.Add("class", "border-error");
-            else
+            }
+            else { 
                 ch_password = true;
-
+            }
 
 
             if (Male.Checked == false  && Female.Checked== false)
@@ -97,6 +105,8 @@ namespace WebApplication4
                 cmd.Parameters.AddWithValue("@gender"   , Gender);
        
                 cmd.ExecuteNonQuery();
+
+              
 
                 con.Close();
             }

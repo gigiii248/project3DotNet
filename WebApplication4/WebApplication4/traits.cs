@@ -5,6 +5,8 @@ using System.Web;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Web.WebSockets;
+using System.Drawing;
+using System.Xml.Linq;
 
 
 namespace WebApplication4
@@ -14,11 +16,11 @@ namespace WebApplication4
        // for hatem
 
         public static string CODB = "Data Source=DESKTOP-VSUOIB8;Initial Catalog=anime;Integrated Security=True;";
-
+        
         public  static SqlConnection con = new SqlConnection(CODB);
 
 
-        
+
         // ===================================================
 
 

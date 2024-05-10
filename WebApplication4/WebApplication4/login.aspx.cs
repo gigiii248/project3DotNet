@@ -57,6 +57,8 @@ namespace WebApplication4
                     if (rd.GetValue(4).ToString() == email.Text.ToString()  &&  rd.GetValue(5).ToString()  ==  password.Text.ToString()  ) {
 
                         Session["id"] = rd.GetValue(0);
+
+                        //Response.Redirect()
                     }
                 }
             }

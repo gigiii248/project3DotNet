@@ -96,8 +96,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminPage.aspx" />
+    <Content Include="help\css\home.css" />
     <Content Include="help\css\main.css" />
     <Content Include="help\JS\Main2.js" />
+    <Content Include="Home.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -127,6 +129,13 @@
     </Compile>
     <Compile Include="AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="LogIn.aspx.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>

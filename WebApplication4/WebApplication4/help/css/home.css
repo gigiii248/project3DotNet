@@ -1,0 +1,121 @@
+﻿:root {
+    main-delay: liner 800ms;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+    background-image: url("../anime.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+li{
+    list-style:none;
+}
+
+header {
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+    header .Logo {
+
+    }
+
+        header .Logo h2 {
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+    header .row {
+        align-items: center;
+    }
+
+.dropdown {
+    transition: var(--main-delay);
+}
+
+.dropdown-menu {
+    background-color: #80808085;
+    border-color: #80808085 !important;
+}
+
+    .dropdown-menu li a {
+        color: white;
+    }
+
+        .dropdown-menu li a:hover {
+            background-color: var(--background-input);
+            color: var(--sec-color)
+        }
+
+
+
+.bestSales {
+    margin: 120px 0;
+}
+
+    .bestSales .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bestSales .sction-title {
+        /* text-align: center; */
+        margin: 30px 0;
+        color: white;
+    }
+
+    .bestSales .products .single-product {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        border: 1px solid var(--sec-color);
+        border-radius: 8px;
+        cursor: pointer;
+        transition: var(--main-delay);
+        justify-content: center;
+        align-items: center;
+        border:1px solid black;
+    }
+.bestSales .products .single-product img{
+    width:275px;
+    height:350px;
+}
+.bestSales .products .single-product:hover {
+    transform: scale(1.1);
+}
+
+        .bestSales .products .single-product h2 {
+            color: var(--sec-color);
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .bestSales .products .single-product .price {
+            font-size: 18px;
+        }
+
+            .bestSales .products .single-product .price del {
+                color: gray;
+                font-size: 16px;
+            }

@@ -38,16 +38,6 @@
 
 
 
-    <script>
-
-        function RemoveAlert() {
-            let div = document.getElementsByClassName("MainErrormsg");
-            div[0].style.display = "none";
-        }
-
-      
-
-    </script>
     
 
 
